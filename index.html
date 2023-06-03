@@ -10,65 +10,60 @@
 </head>
 
 <body>
-    <div class="sm:mx-12 md:mt-16 lg:mt-16 mt-5 font-sans flex flex-col items-center justify-center">
+    <div class=" sm:mx-12 md:mt-16 lg:mt-16 mt-3 font-sans flex flex-col items-center justify-center">
 
-        <img class="sm:w-2/12 sm:h-24 sm:-mb-6 md:w-32 md:h-32 lg:w-36 lg:h-36 lg:-mb-9" src="/images/logo.jpg" alt="Himalayas">
+        <img class=" w-20 h-20 -mb-5 sm:w-1/12 sm:h-24 sm:-mb-8 md:w-32 md:h-32 md:-mb-7 lg:w-28 lg:h-28 lg:-mb-7" src="/images/logo.jpg" alt="Himalayas">
 
-        <h1 class=" font-semibold font-sans text-center sm:text-2xl md:text-3xl lg:text-3xl">
+        <h1 class="font-semibold font-sans text-center text-lg sm:-mt-2 md:-mt-2 lg:-mt-1 xl:-mt-2 sm:text-2xl md:text-3xl lg:text-3xl ">
             Log in to Himalayas
         </h1>
 
-        <p class="mt-3 text-gray-600 sm:text-lg ">Welcome back! Please enter your details.</p>
+        <p class="mt-2 text-gray-600 text-xs sm:text-lg ">Welcome back! Please enter your details.</p>
 
 
         <div class="flex relative ">
-            <img class=" w-2/5 h-6 absolute inset-0 mt-11 px-16 mx-10 " src="/images/google-logo.png" alt="">
+            <img class=" w-10 h-4 px-3 mx-20 mt-10 absolute inset-0 sm:mt-11 sm:w-2/5 sm:h-6 sm:px-16 sm:mx-10 md:w-2/5 md:h-6 md:px-16 md:mx-10 lg:w-2/5 lg:h-6 lg:px-16 lg:mx-10 xl:w-2/5 xl:h-6 xl:px-16 xl:mx-10" src="/images/google-logo.png" alt="">
 
-            <button class="border border-gray-300 w-96 h-11 mt-8  rounded-md shadow-xl:rounded-lg shadow-sm pl-8">
+            <button class="border border-gray-300 w-72 h-8 text-xs sm:text-sm sm:w-96 sm:h-11 md:text-sm md:w-96 md:h-11 lg:text-sm lg:w-96 lg:h-11 xl:text-sm xl:w-96 xl:h-11 mt-8 rounded-md shadow-xl:rounded-lg shadow-sm pl-10 sm:pl-2 md:pl-2 lg:pl-2 xl:pl-2">
                 Sign in with Google
             </button>
         </div>
 
-        <div class="mt-6">
-            <label>Email <br>
-                <input class=" mt-1 border border-gray-300 w-96 h-11 rounded-md shadow-sm px-4 placeholder-gray-500" type="text" placeholder="Enter your email">
+        <div class="mt-4 sm:mt-6 md:mt-6 lg:mt-6 xl:mt-6">
+            <label class="text-xs sm:text-sm" >Email <br>
+                <input class=" mt-1 w-72 h-8 border border-gray-300 text-xs sm:text-sm sm:w-96 sm:h-11 md:text-sm md:w-96 md:h-11 lg:text-sm lg:w-96 lg:h-11 xl:text-sm xl:w-96 xl:h-11 rounded-md shadow-sm px-4 placeholder-gray-500" type="text" placeholder="Enter your email">
             </label>
         </div>
 
-        <div class="mt-5">
-            <label>Password <br>
-                <input class=" mt-1 border border-gray-300 w-96 h-11 rounded-md shadow-sm px-4 placeholder-gray-500" type="text" placeholder="Password">
+        <div class=" mt-2 sm:mt-5">
+            <label class="text-xs sm:text-sm">Password <br>
+                <input class=" mt-1 w-72 h-8 border border-gray-300 ext-xs sm:text-sm sm:w-96 sm:h-11 md:text-sm md:w-96 md:h-11 lg:text-sm lg:w-96 lg:h-11 xl:text-sm xl:w-96 xl:h-11 rounded-md shadow-sm px-4 placeholder-gray-500" type="text" placeholder="Password">
             </label>
         </div>
 
-        <div class="mb-6 mt-4 flex justify-between">
+        <div class="mt-3 flex justify-between">
            
-            <div class="mb-[2px] block min-h-[24px] pl-[24px]">
+            <div class=" block min-h-[12px] pl-[12px] sm:min-h-[24px] sm:pl-[24px] -mt-1">
               <input
-                class="relative float-left  mt-[2.4px] -ml-6 h-[18px] w-[18px] hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring  focus:ring-purple-600 rounded-lg ring-offset-2 accent-purple-500"
+                class="relative float-left mr-2 mt-[8px] sm:mt-[2.4px] -ml-2 w-[10px] h-[10px] sm:-ml-6 sm:h-[18px] sm:w-[18px] md:mt-[2.4px] md:-ml-6 md:h-[18px] md:w-[18px] lg:mt-[2.4px] lg:-ml-6 lg:h-[18px] lg:w-[18px] xl:mt-[2.4px] xl:-ml-6 xl:h-[18px] xl:w-[18px] focus:outline-none focus:ring rounded-lg focus:ring-purple-600 ring-offset-1 accent-purple-500 sm:ring-offset-2 md:ring-offset-2 lg:ring-offset-2 xl:ring-offset-2 "
                 type="checkbox" />
 
               <label
-                class="inline-block hover:cursor-pointer pr-32 md:pr-36"
+                class="inline-block hover:cursor-pointer text-xs pr-24 sm:text-sm sm:pr-36 md:text-sm md:pr-36 lg:text-sm lg:pr-36 xl:text-sm xl:pr-36 "
                 for="check">
                 Remember me
               </label>
             </div>
 
-            <a class="text-purple-700" href="#!">Forgot password</a>
+            <a class="text-purple-700 text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm" href="#!">Forgot password</a>
+            
           </div>
 
-        <!-- <div class="flex w-100 mt-5 px-6">
-        <input class="mx-2 " type="checkbox"> Remember me 
-
-        <a class="mx-20 px-11 text-purple-700">Forgot Password</a>
-    </div> -->
-
-    <button class=" w-96 h-11 mt-6 rounded-lg bg-purple-700 text-white">
+    <button class=" w-72 h-8 mt-8 text-xs sm:w-96 sm:h-11 md:w-96 md:h-11 lg:w-96 lg:h-11 xl:w-96 xl:h-11 sm:mt-6 md:mt-6 lg:mt-6 xl:mt-6 rounded-md bg-purple-700 text-white">
         Log in
     </button>
 
-    <span class="font-sans mt-7">Don't have an account? <span class="text-purple-700">Sign up</span> </span>
+    <span class="font-sans mt-5 mb-36 text-xs sm:mt-7 md:mt-7 lg:mt-7 xl:mt-7 sm:text-sm md:text-sm lg:text-sm xl:text-sm ">Don't have an account? <span class="text-purple-700">Sign up</span> </span>
 
 
     </div>
