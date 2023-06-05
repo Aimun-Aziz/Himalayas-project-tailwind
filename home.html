@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/Tailwind.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="home">
+        <div class="flex items-center justify-center sm:mx-6 md:mx-0">
+
+            <div class="hamburger inline-block cursor-pointer h-[100vh] pt-7 md:hidden ">
+                <div class="line h-0.5 w-5 my-1 bg-black "></div>
+                <div class="line h-0.5 w-3 my-1 bg-black "></div>
+                <div class="line h-0.5 w-5 my-1 bg-black "></div>
+            </div>
+
+            <div
+                class="sidebar hidden md:flex flex-col items-center justify-start h-[100vh] w-60 lg:w-72 -mx-7 bg-black text-white ">
+
+                <img class="w-32 my-3 h-16 " src="/images/logopaypilot.png" alt="">
+
+                <div class="menu ">
+                    <div class="flex ">
+                        <img class="w-7 my-3 h-6 mx-2 " src="/images/dashboard.png" alt="" />
+                        <p class="mt-2 ">Dashboard</p>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <img class="w-7 my-4  h-6 mx-2 " src="/images/transaction.png" alt="" />
+                        <p class="mt-2">Transactions</p>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <img class="w-7 my-3 h-6 mx-2 " src="/images/statistics.png" alt="" />
+                        <p class="mt-2">Statistics</p>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <img class="w-7 my-3 h-6 mx-2 " src="/images/wallet.png" alt="" />
+                        <p class="mt-2">Wallet</p>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <img class="w-7 my-3 h-6 mx-2 " src="/images/settings.png" alt="" />
+                        <p class="mt-2">Settings</p>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <img class="w-7 my-3 h-6 mx-2 " src="/images/customer-care.png" alt="" />
+                        <p class="mt-2">Customer Care</p>
+                    </div>
+                    <div class="mt-24">
+                        <div class="flex ">
+                            <img class="w-7 my-3 h-7 mx-2 " src="/images/other-acc.png" alt="" />
+                            <p class="mt-2">Add Other Account</p>
+                        </div>
+
+                        <div class="flex ">
+                            <img class="w-7 my-3 h-6 mx-2 " src="/images/logout1.png" alt="" />
+                            <p class="mt-2 text-red-400">Log out</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-[100vh] md:hidden ">
+                <img class="w-16 h-6 mt-7 px-5" src="/images/magnifying-glass.png" alt="">
+            </div>
+
+            <div class="h-[100vh] pt-6 md:hidden">
+                <img class="h-8 w-48 mx-2 px-1 flex justify-start " src="/images/logopaypilot.png" alt="">
+            </div>
+
+            <div class="h-[100vh] flex justify-center md:mx-9">
+
+                <div class="search relative hidden md:flex md:mx-7">
+                    <img class="w-min h-4 absolute inset-0 mt-8 px-6 sm:px-4 md:mx-3 md:w-14 md:h-6"
+                        src="/images/magnifying-glass.png" alt="">
+
+                    <input
+                        class="bg-gray-100 mt-6 px-9 py-2 mx-3 w-56 sm:px-10 sm:w-64 md:text-sm md:w-80 md:h-11 md:px-12 rounded-sm"
+                        type="text" placeholder="Search your transaction here">
+                </div>
+
+
+                <div class="mt-5 mx-3 flex space-x-5 sm:mx-14 md:mx-20 md:px-20 ">
+
+                    <img class="w-4 my-3 h-5 md:w-5 md:h-6 md:my-1 cursor-pointer" src="/images/comment.png" alt="">
+
+                    <img class="w-4 my-3 h-4 md:w-5 md:h-6 md:my-1 cursor-pointer" src="/images/bell.png" alt="">
+
+                    <img class="w-7 my-0.5 h-7 md:mx-9 cursor-pointer" src="/images/profile.png" alt="">
+
+                    <div class="flex flex-col text-sm md:mx-12 ">
+                    <div>Aimun Aziz</div>
+                    <div class="text-gray-400 text-xs">aimun123@gmail.com</div>
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
